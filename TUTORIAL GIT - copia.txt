@@ -1,0 +1,40 @@
+
+TUTORIAL GIT
+
+1. Para iniciar el proyecto, en la carpeta abrimos el git bash y escribir: 
+	git init
+
+2. para ver el estado de los archivos: 
+	git status -s
+
+3. para agregar archivos del area de trabajo (PC) al STAGING AREA (area de ensayo):
+	git add nombreArchivo 
+
+3.1 para agregar a todos los archivos
+	git add .
+
+4. verificando nuevamente el status
+	git status -s
+
+5. guardando los cambios para el versionamiento
+	git commit -m "comentario si se desea"
+
+5.1 para hacer un add y commit a la vez
+	git commit -am "comentario cualquiera"
+
+6. para ver todas las copias guardadas (versiones):
+	git log --oneline
+
+7. para restaurar a una version en especifica
+	git reset --hard codigoVersion
+
+
+
+PARA USAR GITHUB
+1. Crear el repositorio en github y copiar la linea de comando donde sale el usuario algo asi es:
+	…or push an existing repository from the command line
+git remote add origin https://github.com/darkwoolf30/js.git
+git branch -M main
+git push -u origin main
+
+2. pegar la linea de github en el git bash
